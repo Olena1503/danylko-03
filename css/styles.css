@@ -1,0 +1,242 @@
+:root {
+   --accent-color:#FD9222;
+   --maine-text-color: #111;
+   --secondary-text-color: #FFF;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style-type: none;
+}
+.section-title {
+    color: var(--maine-text-color);
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.17;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+}
+.section-title span {
+    color: var(--accent-color);
+}
+
+/**------------------HEADER-------*/
+.header-logo {
+    color: var(--maine-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+}
+.header-logo-accent {
+    font-style: italic;
+}
+.header-menu-link {
+    color: var(--maine-text-color);
+font-size: 14px;
+font-family: Montserrat;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: -0.02em;
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: var(--accent-color);
+}
+
+/**------------------HERO-------*/
+.hero {
+    background-color: #272018;
+}
+.hero-title {
+}
+.hero-btn {
+    color: var(--secondary-text-color);
+font-size: 14px;
+font-family: inherit;
+font-weight: 600;
+background-color: var(--accent-color);
+cursor: pointer;
+}
+.hero-link {
+    color: var(--secondary-text-color);
+font-size: 14px;
+font-weight: 600;
+}
+.hero-down {
+    color: var(--secondary-text-color);
+font-size: 14px;
+font-family: Montserrat;
+font-weight: 500;
+line-height: 1.29;
+letter-spacing: -0.03em;
+}
+/**----------------ADVANTAGES-------*/
+.advantages {
+    background-color: #1E1823;
+}
+.advantages-list {
+}
+.advanteges-item {
+}
+.advanteges-subtitle {
+    color: var(--secondary-text-color);
+font-size: 18px;
+font-weight: 600;
+}
+.advanteges-item-text {
+    color: rgba(255, 255, 255, 0.70);
+font-size: 14px;
+letter-spacing: -0.02em;
+}
+/**----------------TASTE-------*/
+.taste {
+}
+.taste-title {
+}
+.taste-text {
+    color: var(--maine-text-color);
+text-align: center;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+.taste-list {
+}
+.taste-item {
+}
+.taste-img {
+}
+.taste-subtitle {
+    color: var(--secondary-text-color);
+font-size: 14px;
+font-weight: 600;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+.taste-subtitle.light {
+    color: var(--secondary-text-color);
+}
+.taste-subtitle.dark {
+    color: var(--maine-text-color);
+}
+
+/**----------------MADE-------*/
+.made {
+}
+.made-title {
+}
+.made-head {
+    color: var(--maine-text-color);
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33;
+}
+.made-list {
+}
+.made-item {
+}
+.made-item-text {
+    color: var(--maine-text-color);
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+
+/**----------------LOVE-------*/
+.love {
+}
+.love-title {
+}
+.love-list {
+}
+.love-item {
+}
+.love-subtitle {
+    color: var(--maine-text-color);
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33;
+}
+.love-item-text {
+    color: rgba(17, 17, 17, 0.70);
+text-align: center;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+.love-btn {
+    color: var(--maine-text-color);
+font-size: 18px;
+font-family: inherit;
+font-weight: 600;
+}
+/**----------------FOOTER-------*/
+.footer {
+    background-color: var(--maine-text-color);
+}
+.footer-mane-text {
+    color: var(--secondary-text-color);
+font-size: 28px;
+font-weight: 500;
+line-height: 1.21;
+letter-spacing: -0.02em;
+}
+.footer-mane-text span {
+    color: var(--accent-color);
+}
+.footer-contacts-head {
+    color: var(--secondary-text-color);
+text-align: center;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.29;
+}
+.footer-adress {
+    font-size: normal;
+}
+.footer-adress-list {
+}
+.footer-adress-item {
+   
+}
+.footer-adress-link {
+    color: var(--secondary-text-color);
+text-align: center;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+.footer-navigation {
+}
+.footer-menu {
+}
+.footer-menu-item {
+}
+.footer-menu-link {
+    color: var(--secondary-text-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: -0.02em;
+}
