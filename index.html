@@ -3,16 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simply Chocolate</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>Simply Chocolate</title>   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link 
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" 
       rel="stylesheet">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />  
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header class="header">
+      <div class="contanier header-contanier">
       <nav class="header-navigation">
         <a href="" class="header-logo link" 
           ><span class="header-logo-accent">SIMPLY</span> CHOCOLATE <img src="./images/logo-icon.svg" alt="logo icon"
@@ -43,18 +49,26 @@
           >
         </li>
       </ul>
+    </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">
-          Treat yourself or a loved one to our finest ingredients for a moment
-          of pure delight!
-        </h1>
-        <button type="button" class="hero-btn">Buy now</button>
-        <a href="#made" class="hero-link link">How it’s made</a>
-        <a href="#footer" class="hero-down link">scroll down</a>
+        <div class="contanier">
+          <div class="hero-container">
+            <h1 class="hero-title">
+              Treat yourself or a loved one to<br>our finest ingredients for a moment
+              of pure delight!
+            </h1>
+              <div class="hero-buttons">
+              <button type="button" class="hero-btn">Buy now</button>
+              <a href="#made" class="hero-link link">How it’s made</a>
+              <a href="#footer" class="hero-down link">scroll down</a>
+              </div>
+        </div>
+      </div>
       </section>
       <section class="advantages">
+        <div class="contanier">
         <h2 class="visually-hidden">Advantages</h2>
         <ul class="advantages-list list">
           <li class="advanteges-item">
@@ -86,8 +100,10 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <section class="taste">
+        <div class="contanier">
         <h2 class="taste-title section-title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span>TASTE</span> SENSATION</h2>
         <p class="taste-text">
           At Simply Chocolate, we believe that the secret to exceptional
@@ -113,8 +129,10 @@
             <h3 class="taste-subtitle dark">sEMI - SWEET CHOCOLATE</h3>
           </li>
         </ul>
+      </div>
       </section>
       <section id="made" class="made">
+        <div class="contanier">
         <h2 class="made-title section-title">hOW IT’S , <span>made?</span></h2>
         <img src="./images/chocolade.jpg" alt="chocolade" width="600" height="400">
         <p class="made-head">Try  our chocolates today and discover the perfect balance of flavor</p>
@@ -135,8 +153,10 @@
             <p class="made-item-text">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p>
           </li class="made-item">
         </ul>
+      </div>
       </section>
       <section id="love" class="love">
+        <div class="contanier">
         <h2 class="love-title section-title"><span> chocolate</span> is loved</h2>
         <ul class="love-list list">
           <li class="love-item">
@@ -156,8 +176,8 @@
           </li>
         </ul>
         <button type="button" class="love-btn">Leave  a review</button>
+      </div>
       </section>
-
     </main>
     <footer id="footer" class="footer">
       <p class="footer-mane-text"><span>Chocolate</span> a delicious cure for a bad day</p>

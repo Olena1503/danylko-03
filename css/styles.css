@@ -3,8 +3,33 @@
    --maine-text-color: #111;
    --secondary-text-color: #FFF;
 }
+p, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul, 
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
 body {
     font-family: "Montserrat", sans-serif;
+    background-color: #FAFAFA;
+}
+.contanier {
+    width: 100%;
+    max-width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    border: 1px solid red;
 }
 .visually-hidden {
     position: absolute;
@@ -39,23 +64,48 @@ text-transform: uppercase;
 }
 
 /**------------------HEADER-------*/
+.header {
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
 .header-logo {
     color: var(--maine-text-color);
     font-size: 18px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: -0.03em;
+    display: flex;
+    align-items: center;
 }
 .header-logo-accent {
     font-style: italic;
 }
+.header-contanier {
+    display: flex;
+    align-items: center;  
+    gap: 90px;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.header-menu {
+    display: flex;
+    gap: 24px;
+}
+.header-socials {
+    display: flex;
+    gap: 18px;
+}
 .header-menu-link {
     color: var(--maine-text-color);
-font-size: 14px;
-font-family: Montserrat;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: -0.02em;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -64,9 +114,19 @@ letter-spacing: -0.02em;
 
 /**------------------HERO-------*/
 .hero {
+    }
+.hero-container {
     background-color: #272018;
+    border-radius: 30px;
+    padding: 380px 40px 40px 40px;
 }
 .hero-title {
+    color: #FFF;
+    max-width: 484px;
+    margin-bottom: 32px;
+}
+.hero-buttons {
+    display: flex;
 }
 .hero-btn {
     color: var(--secondary-text-color);
@@ -75,11 +135,18 @@ font-family: inherit;
 font-weight: 600;
 background-color: var(--accent-color);
 cursor: pointer;
+padding: 14px 40px;
+border-radius: 100px;
+border: none;
+margin-right: 14px;
 }
 .hero-link {
     color: var(--secondary-text-color);
 font-size: 14px;
 font-weight: 600;
+padding: 14px 40px;
+border-radius: 100px;
+border: 1px solid #FFF;
 }
 .hero-down {
     color: var(--secondary-text-color);
@@ -88,19 +155,30 @@ font-family: Montserrat;
 font-weight: 500;
 line-height: 1.29;
 letter-spacing: -0.03em;
+display: block;
+margin-left: auto;
 }
 /**----------------ADVANTAGES-------*/
 .advantages {
     background-color: #1E1823;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 .advantages-list {
+    padding-left: 18px;
+    padding-right: 18px;
+    display: flex;
+    gap: 88px;
 }
 .advanteges-item {
+    width: (calc(100% - 88 * 2) / 3);
 }
 .advanteges-subtitle {
     color: var(--secondary-text-color);
-font-size: 18px;
-font-weight: 600;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 18px;
 }
 .advanteges-item-text {
     color: rgba(255, 255, 255, 0.70);
